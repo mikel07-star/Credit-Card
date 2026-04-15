@@ -1,0 +1,36 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Poppins, sans-serif;
+}
+
+.main_box{
+   position: relative; 
+   background: url('SideBar\ img.jpeg') right no-repeat;
+   background-size: cover;
+   height: 100vh;
+    width: 100%;
+}
+.main_box .sidebar_menu{
+    position: fixed;
+    height: 100vh;
+    width: 280px;
+    background: rgba(255, 255, 255, 0.1);
+    box-shadow: 0 0 6px rgba(255, 255, 255, 0.5);
+}
+.sidebar_menu .logo{
+    position: absolute;
+    width: 100%;
+    height: 60px;
+    box-shadow: 0 0 6px rgba(255, 255, 255, 0.5) ;
+}
+.sidebar_menu .logo a{
+  color: #fff;
+  font-size: 25px;
+  font-weight: 500;
+  position: absolute;
+  left: 50px;
+  line-height: 60px;
+  text-decoration: none; 
+}
